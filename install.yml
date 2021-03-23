@@ -1,0 +1,9 @@
+---
+- name: Mail to the job starter
+  hosts: localhost
+  tasks:
+    - name: Install a module with yum
+      yum:
+        name:
+          - gcc
+          - gcc-c++ 
